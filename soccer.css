@@ -164,19 +164,19 @@
 .kart{
     height: 500px;
     width: 400px;
-    background-color: rgb(187, 186, 190);
+    background-color: rgb(148, 172, 202);
     /* border: solid gray 10px; */
     border-radius: 15px;
-    box-shadow: 0 2px 14px antiquewhite;
+    box-shadow: 0 2px 14px rgb(62, 113, 161);
 }
 
 .part{
     height: 500px;
     width: 400px;
-    background-color: rgb(187, 186, 190);
+    background-color: rgb(162, 180, 231);
     /* border: solid gray 10px; */
     border-radius: 15px;
-    box-shadow: 0 2px 14px antiquewhite;
+    box-shadow: 0 2px 14px rgb(255, 255, 255);
 }
 
 
@@ -197,7 +197,7 @@
     font-size: 25px;
     font-weight: bold;
     font-family: "Roboto Condensed", serif;
-    border: solid rgb(223, 223, 218 5px) 5px;
+    border: rgb(223, 223, 218 5px) 5px;
     border-radius: 4px;
     background-color: rgb(10, 10, 9);
     color: aliceblue;
@@ -208,4 +208,29 @@
     margin-top: 5px;
     text-align: center;
     font-size: 15px;
+    font-family: "Roboto Condensed", sans-serif;
 }
+
+
+.second_name {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", serif;
+    border-radius: 4px;
+    background-color: rgb(95, 29, 156);
+    color: aliceblue;
+}
+
+
+.third_name {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", serif;
+    border-radius: 4px;
+    background-color: rgb(92, 93, 136);
+    color: rgb(7, 7, 7);
+}
+
+
