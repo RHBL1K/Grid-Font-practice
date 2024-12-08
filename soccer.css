@@ -46,7 +46,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
-    background-color: black;
+    background-color: darkslateblue;
   }
   
   
@@ -153,32 +153,27 @@
 }
 
 .card{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    height: 450px;
+    height: 500px;
     width: 400px;
-    background-color: azure;
+    background-color: rgb(187, 186, 190);
     /* border: solid gray 10px; */
     border-radius: 15px;
     box-shadow: 0 2px 14px antiquewhite;
 }
 
 .kart{
-    margin-top: 20px;
-    height: 450px;
+    height: 500px;
     width: 400px;
-    background-color: azure;
+    background-color: rgb(187, 186, 190);
     /* border: solid gray 10px; */
     border-radius: 15px;
     box-shadow: 0 2px 14px antiquewhite;
 }
 
 .part{
-    margin-top: 20px;
-    height: 450px;
+    height: 500px;
     width: 400px;
-    background-color: azure;
+    background-color: rgb(187, 186, 190);
     /* border: solid gray 10px; */
     border-radius: 15px;
     box-shadow: 0 2px 14px antiquewhite;
@@ -188,4 +183,29 @@
 
 .picture {
     width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.mini_title {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.name {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", serif;
+    border: solid rgb(223, 223, 218 5px) 5px;
+    border-radius: 4px;
+    background-color: rgb(10, 10, 9);
+    color: aliceblue;
+}
+
+
+.context {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
 }
