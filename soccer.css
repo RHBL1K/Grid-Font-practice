@@ -34,19 +34,18 @@
   
   html,
   body {
-    height: 100%;
     width: 100%;
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
     min-height: 180vh;
+    -webkit-text-size-adjust: 100%;
     background-image: url(imgs/Frame.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
   }
   
   
